@@ -1,9 +1,11 @@
 package br.com.banco;
 
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class MenuApplication {
@@ -56,8 +58,8 @@ public class MenuApplication {
 
             break;
             case 2:
-                System.out.println("Logando..");
-
+                Login login = new Login();
+                login.Logar();
                 break;
             case 3:
                 System.out.println("acessando...");
