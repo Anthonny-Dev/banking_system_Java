@@ -64,7 +64,7 @@ public class BancoConnection {
                     String dataNascimento = resultSet.getString("dataNascimento");
                     String email = resultSet.getString("email");
 
-                    System.out.printf("ID: %d |\n CPF: %s |\n Nome: %s |\n Conta: R$%d |\n Email: %s\n________________________________________________\n",
+                    System.out.printf("ID: %d |\n CPF: %s |\n Nome: %s |\n Conta: %d |\n Email: %s\n________________________________________________\n",
                             id_cliente, cpf, nome, contaCliente, email);
                 }
 

@@ -63,7 +63,8 @@ public class MenuApplication {
                 break;
             case 3:
                 System.out.println("acessando...");
-
+                AcessAccount enteraccount = new AcessAccount();
+                enteraccount.Acess();
                 break;
             case 4:
                 System.out.println("Exit Programming...");
